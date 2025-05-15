@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support - CLIMB Cloud Infrastructure</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://source.unsplash.com/random/1200x400/?support,help') center/cover no-repeat;
+      color: white;
+      padding: 5rem 0;
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+      color: #0d6efd;
+      margin-bottom: 1rem;
+    }
+    .support-card {
+      transition: transform 0.3s;
+    }
+    .support-card:hover {
+      transform: translateY(-5px);
+    }
+    .faq-item {
+      border-bottom: 1px solid #e9ecef;
+      padding: 1.5rem 0;
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-dna me-2"></i><i class="fas fa-cloud"></i> CLIMB
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="support.html">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contact</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <a href="https://bryn.climb.ac.uk/" class="btn btn-outline-light me-2" target="_blank">Login</a>
+          <a href="pricing.html#register" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h1 class="display-5 fw-bold mb-3">Support Resources</h1>
+          <p class="lead">Everything you need to make the most of CLIMB's powerful bioinformatics infrastructure</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Help Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Get Help</h2>
+      <p class="text-center mb-5">Our team is here to help you make the most of CLIMB resources</p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card support-card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <div class="feature-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h4>Email Support</h4>
+              <p>Contact <a href="mailto:support@climb.ac.uk">support@climb.ac.uk</a> for assistance with any issues or questions.</p>
+              <a href="mailto:support@climb.ac.uk" class="btn btn-outline-primary mt-3">Email Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card support-card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <div class="feature-icon">
+                <i class="fas fa-ticket-alt"></i>
+              </div>
+              <h4>Ticketing System</h4>
+              <p>Submit a support ticket through our portal for efficient issue tracking and resolution.</p>
+              <a href="#" class="btn btn-outline-primary mt-3">Submit Ticket</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card support-card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <div class="feature-icon">
+                <i class="fab fa-slack"></i>
+              </div>
+              <h4>Slack Community</h4>
+              <p>Connect with other users and share solutions in our active user community.</p>
+              <a href="#" class="btn btn-outline-primary mt-3">Join Slack</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card support-card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <div class="feature-icon">
+                <i class="fas fa-video"></i>
+              </div>
+              <h4>Office Hours</h4>
+              <p>Virtual drop-in sessions for direct help from our technical team.</p>
+              <a href="#" class="btn btn-outline-primary mt-3">View Schedule</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Documentation Section -->
+  <section id="documentation" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Documentation</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h3 class="mb-4">Comprehensive Resources</h3>
+          <p>Our documentation is designed to help you navigate CLIMB's features and capabilities effectively.</p>
+          <div class="list-group mb-4">
+            <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+              <i class="fas fa-book text-primary me-3"></i>
+              <div>
+                <h5 class="mb-1">Getting Started Guide</h5>
+                <p class="mb-0">Everything you need to know for your first steps with CLIMB</p>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+              <i class="fas fa-laptop-code text-primary me-3"></i>
+              <div>
+                <h5 class="mb-1">Notebook Server Documentation</h5>
+                <p class="mb-0">Detailed guides for setting up and using Jupyter notebook servers</p>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+              <i class="fas fa-database text-primary me-3"></i>
+              <div>
+                <h5 class="mb-1">Storage Solutions Guide</h5>
+                <p class="mb-0">How to effectively use and manage your storage allocations</p>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+              <i class="fas fa-project-diagram text-primary me-3"></i>
+              <div>
+                <h5 class="mb-1">Nextflow Integration Guide</h5>
+                <p class="mb-0">Running efficient workflows on CLIMB infrastructure</p>
+              </div>
+            </a>
+          </div>
+          <a href="#" class="btn btn-primary">Browse All Documentation</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://source.unsplash.com/random/600x400/?documentation,guide" alt="Documentation" class="img-fluid rounded shadow mt-4 mt-lg-0">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs Section -->
+  <section id="faqs" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="faq-item">
+            <h4><i class="fas fa-question-circle text-primary me-2"></i> How do I access my notebook server?</h4>
+            <p>After logging into Bryn, navigate to "Notebook servers" under the "Compute" section, launch a server, and click the URL provided.</p>
+          </div>
+          <div class="faq-item">
+            <h4><i class="fas fa-question-circle text-primary me-2"></i> What if I forget my two-factor authentication device?</h4>
+            <p>You can use backup codes if you've set them up. If not, contact support@climb.ac.uk.</p>
+          </div>
+          <div class="faq-item">
+            <h4><i class="fas fa-question-circle text-primary me-2"></i> Can I install custom software?</h4>
+            <p>Yes, you can install software within your environment using package managers like Conda. See our software installation guide.</p>
+          </div>
+          <div class="faq-item">
+            <h4><i class="fas fa-question-circle text-primary me-2"></i> How do I share data with my team members?</h4>
+            <p>Use the shared team storage mounted at ~/shared-team/ which is accessible to all team members. Or use S3 buckets and share the link.</p>
+          </div>
+          <div class="faq-item">
+            <h4><i class="fas fa-question-circle text-primary me-2"></i> What happens if I exceed my storage quota?</h4>
+            <p>You'll receive notifications and may experience restricted write access. Contact us to discuss increasing your quota.</p>
+          </div>
+          <div class="text-center mt-4">
+            <a href="#" class="btn btn-outline-primary">View All FAQs</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training Section -->
+  <section id="training" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Training Opportunities</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-video text-primary me-2"></i> Webinars</h4>
+              <p class="card-text">Regular online sessions covering various aspects of CLIMB usage and bioinformatics topics.</p>
+              <h5 class="mt-4">Upcoming Webinars:</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0 ps-0">
+                  <strong>Introduction to CLIMB</strong> - June 15, 2025
+                </li>
+                <li class="list-group-item border-0 ps-0">
+                  <strong>Advanced Nextflow on CLIMB</strong> - June 22, 2025
+                </li>
+                <li class="list-group-item border-0 ps-0">
+                  <strong>Optimizing Storage Usage</strong> - June 29, 2025
+                </li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary mt-3">Register for Webinars</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-chalkboard-teacher text-primary me-2"></i> Tutorials</h4>
+              <p class="card-text">Self-paced learning resources to help you master CLIMB capabilities.</p>
+              <h5 class="mt-4">Popular Tutorials:</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0 ps-0">
+                  <strong>Setting Up Your First Notebook Server</strong>
+                </li>
+                <li class="list-group-item border-0 ps-0">
+                  <strong>Working with S3 Storage in CLIMB</strong>
+                </li>
+                <li class="list-group-item border-0 ps-0">
+                  <strong>Running Bacterial Genome Assembly Pipelines</strong>
+                </li>
+                <li class="list-group-item border-0 ps-0">
+                  <strong>Collaboration Best Practices for Research Teams</strong>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary mt-3">Explore Tutorials</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 bg-primary text-white text-center">
+    <div class="container">
+      <h2 class="mb-4">Need additional assistance?</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="lead mb-4">Our team is ready to help you overcome any challenges you may face</p>
+          <a href="contacts.html" class="btn btn-light btn-lg">Contact Us Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5><i class="fas fa-dna me-2"></i><i class="fas fa-cloud"></i> CLIMB</h5>
+          <p>Cloud Infrastructure for Microbial Bioinformatics</p>
+          <div class="d-flex gap-3 mt-4">
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-slack fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="services.html" class="text-white">Services</a></li>
+            <li><a href="pricing.html" class="text-white">Pricing</a></li>
+            <li><a href="support.html" class="text-white">Support</a></li>
+            <li><a href="about.html" class="text-white">About</a></li>
+            <li><a href="contacts.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <h5>Resources</h5>
+          <ul class="list-unstyled">
+            <li><a href="support.html#documentation" class="text-white">Documentation</a></li>
+            <li><a href="support.html#faqs" class="text-white">FAQs</a></li>
+            <li><a href="https://github.com/climb-high" class="text-white" target="_blank">GitHub</a></li>
+            <li><a href="support.html#training" class="text-white">Training</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <h5>Join Our Community</h5>
+          <p>Subscribe to our newsletter for the latest updates.</p>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your email">
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-md-0">© 2025 CLIMB-BIG-DATA. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-white me-3">Privacy Policy</a>
+          <a href="#" class="text-white">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - CLIMB Cloud Infrastructure</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://source.unsplash.com/random/1200x400/?contact,network') center/cover no-repeat;
+      color: white;
+      padding: 5rem 0;
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+      color: #0d6efd;
+      margin-bottom: 1rem;
+    }
+    .contact-card {
+      transition: transform 0.3s;
+    }
+    .contact-card:hover {
+      transform: translateY(-5px);
+    }
+    .social-icon {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      background-color: #f8f9fa;
+      border-radius: 50%;
+      color: #0d6efd;
+      font-size: 1.5rem;
+      margin: 0 0.5rem;
+      transition: all 0.3s;
+    }
+    .social-icon:hover {
+      background-color: #0d6efd;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-dna me-2"></i><i class="fas fa-cloud"></i> CLIMB
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="support.html">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacts.html">Contact</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <a href="https://bryn.climb.ac.uk/" class="btn btn-outline-light me-2" target="_blank">Login</a>
+          <a href="pricing.html#register" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h1 class="display-5 fw-bold mb-3">Get in Touch</h1>
+          <p class="lead">We're here to answer your questions and help you make the most of CLIMB</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Methods Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h2 class="mb-4">Contact Information</h2>
+          <div class="card mb-4 border-0 shadow-sm">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-envelope text-primary me-2"></i> Email Us</h4>
+              <p class="card-text">For general inquiries: <a href="mailto:info@climb.ac.uk">info@climb.ac.uk</a></p>
+              <p class="card-text">For technical support: <a href="mailto:support@climb.ac.uk">support@climb.ac.uk</a></p>
+            </div>
+          </div>
+          <div class="card mb-4 border-0 shadow-sm">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-ticket-alt text-primary me-2"></i> Support Ticket</h4>
+              <p class="card-text">For specific technical issues, please submit a support ticket through our portal.</p>
+              <a href="#" class="btn btn-outline-primary">Submit Ticket</a>
+            </div>
+          </div>
+          <div class="card border-0 shadow-sm">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-clock text-primary me-2"></i> Office Hours</h4>
+              <p class="card-text">Our support team is available Monday to Friday, 9:00 AM to 5:00 PM UK time.</p>
+              <p class="card-text">Virtual office hours are held every Wednesday from 1:00 PM to 3:00 PM.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-4">Request a Consultation</h2>
+          <p>Need personalized assistance with your research project? Schedule a consultation with our team to discuss how CLIMB can support your specific research needs.</p>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="institution" class="form-label">Institution</label>
+              <input type="text" class="form-control" id="institution">
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <select class="form-select" id="subject" required>
+                <option value="" selected disabled>Select a topic</option>
+                <option value="research">Research Project Discussion</option>
+                <option value="technical">Technical Requirements</option>
+                <option value="pricing">Pricing & Resources</option>
+                <option value="training">Training & Workshops</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Our Community Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Join Our Community</h2>
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <p class="lead mb-5">Stay connected with CLIMB and fellow researchers through our various community channels</p>
+          <div class="d-flex justify-content-center flex-wrap">
+            <a href="#" class="social-icon m-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon m-2">
+              <i class="fab fa-slack"></i>
+            </a>
+            <a href="#" class="social-icon m-2">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-icon m-2">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <div class="mt-5 row g-4">
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4><i class="fas fa-envelope-open-text text-primary me-2"></i> Newsletter</h4>
+                  <p>Subscribe to our newsletter for updates, new features, and community news.</p>
+                  <div class="input-group mt-3">
+                    <input type="email" class="form-control" placeholder="Your email address">
+                    <button class="btn btn-primary">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h4><i class="fab fa-slack text-primary me-2"></i> User Forum</h4>
+                  <p>Join our active Slack community to connect with other CLIMB users, share solutions, and get help.</p>
+                  <a href="#" class="btn btn-outline-primary mt-3">Join Slack Community</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Resources Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2 class="mb-4">GitHub Resources</h2>
+          <p class="lead">Access open-source tools and workflows developed by the CLIMB community</p>
+          <p>Our GitHub organization hosts a variety of resources including:</p>
+          <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item border-0 ps-0">
+              <i class="fas fa-check-circle text-primary me-2"></i> Bioinformatics pipelines and workflows
+            </li>
+            <li class="list-group-item border-0 ps-0">
+              <i class="fas fa-check-circle text-primary me-2"></i> Example notebooks for various genomic analyses
+            </li>
+            <li class="list-group-item border-0 ps-0">
+              <i class="fas fa-check-circle text-primary me-2"></i> Utilities for working with CLIMB resources
+            </li>
+            <li class="list-group-item border-0 ps-0">
+              <i class="fas fa-check-circle text-primary me-2"></i> Community-contributed tools and extensions
+            </li>
+          </ul>
+          <a href="https://github.com/climb-high" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github me-2"></i> Visit Our GitHub
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://source.unsplash.com/random/600x400/?code,github" alt="GitHub code" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 bg-primary text-white text-center">
+    <div class="container">
+      <h2 class="mb-4">Ready to start your journey with CLIMB?</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <p class="lead mb-4">Join the growing community of researchers powered by CLIMB infrastructure</p>
+          <a href="pricing.html#register" class="btn btn-light btn-lg">Get Started Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5><i class="fas fa-dna me-2"></i><i class="fas fa-cloud"></i> CLIMB</h5>
+          <p>Cloud Infrastructure for Microbial Bioinformatics</p>
+          <div class="d-flex gap-3 mt-4">
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-github fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-slack fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="services.html" class="text-white">Services</a></li>
+            <li><a href="pricing.html" class="text-white">Pricing</a></li>
+            <li><a href="support.html" class="text-white">Support</a></li>
+            <li><a href="about.html" class="text-white">About</a></li>
+            <li><a href="contacts.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <h5>Resources</h5>
+          <ul class="list-unstyled">
+            <li><a href="support.html#documentation" class="text-white">Documentation</a></li>
+            <li><a href="support.html#faqs" class="text-white">FAQs</a></li>
+            <li><a href="https://github.com/climb-high" class="text-white" target="_blank">GitHub</a></li>
+            <li><a href="support.html#training" class="text-white">Training</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <h5>Join Our Community</h5>
+          <p>Subscribe to our newsletter for the latest updates.</p>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your email">
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-md-0">© 2025 CLIMB-BIG-DATA. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-white me-3">Privacy Policy</a>
+          <a href="#" class="text-white">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
