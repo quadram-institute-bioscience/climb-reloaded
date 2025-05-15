@@ -1,7 +1,7 @@
 <!-- Header & Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
       <i class="fas fa-dna me-2"></i><i class="fas fa-cloud"></i> CLIMB
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -10,27 +10,27 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="/">Home</a>
+          <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/services.html' %}active{% endif %}" href="/services.html">Services</a>
+          <a class="nav-link {% if page.url == '/services.html' %}active{% endif %}" href="{{ site.baseurl }}/services.html">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/pricing.html' %}active{% endif %}" href="/pricing.html">Pricing</a>
+          <a class="nav-link {% if page.url == '/pricing.html' %}active{% endif %}" href="{{ site.baseurl }}/pricing.html">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/support.html' %}active{% endif %}" href="/support.html">Support</a>
+          <a class="nav-link {% if page.url == '/support.html' %}active{% endif %}" href="{{ site.baseurl }}/support.html">Support</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/about.html' %}active{% endif %}" href="/about.html">About</a>
+          <a class="nav-link {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/contacts.html' %}active{% endif %}" href="/contacts.html">Contact</a>
+          <a class="nav-link {% if page.url == '/contacts.html' %}active{% endif %}" href="{{ site.baseurl }}/contacts.html">Contact</a>
         </li>
       </ul>
       <div class="d-flex">
         <a href="https://bryn.climb.ac.uk/" class="btn btn-outline-light me-2" target="_blank">Login</a>
-        <a href="/pricing.html#register" class="btn btn-primary">Register</a>
+        <a href="{{ site.baseurl }}/pricing.html#register" class="btn btn-primary">Register</a>
       </div>
     </div>
   </div>

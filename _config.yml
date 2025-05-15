@@ -4,8 +4,8 @@ email: info@climb.ac.uk
 description: >-
   CLIMB is the UK's leading cloud computing infrastructure originally designed for microbial bioinformatics 
   and now available for the broader scientific community.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/climb-reloaded" # the subpath of your site, e.g. /blog
+url: "https://corebio.info" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
